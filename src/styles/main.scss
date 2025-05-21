@@ -1,7 +1,7 @@
 @import './variables';
 
 $days: (
-  'mon': 0,
+  'mon': $cell-first-size,
   'tue': $cell-size * 1 + $cell-gap * 1,
   'wed': $cell-size * 2 + $cell-gap * 2,
   'thu': $cell-size * 3 + $cell-gap * 3,
